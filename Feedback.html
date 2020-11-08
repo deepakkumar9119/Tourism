@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script type="text/javascript" src="Feedback.js"></script>
+<title></title> 
+</head> 
+<body style="background-image: url('picture4.jpg'); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div align="center">
+<form name="myForm" onsubmit="return msg()" method="POST">
+
+<h1 align="center" style="color:darkred">Client Feedback</h2>
+<p style="text-align:center;"><b>We at Deeadi Tour and Travels aims at offering cut-edge services to our customers. Satisfied Customers are Happy Customers is our motto and we work towards it. We also like to hear from them, regarding our services which keeps us motivated to enhance our services. Here are a few words of praises from our esteemed customers.</b></p>
+Name: <input type="text" name="name" value="" required/><br><br>
+Email id: <input type="email" name="email" value="" required/><br><br>
+Password: <input type="password" name="password" value="" required /><br><br>
+Gender: <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+<label for="rating">Rating:</label>
+<select name="rating">
+	<option value="NA" disabled="disabled" selected="selected">--Select--</option><br/>
+  <option value="one">1</option>
+  <option value="two">2</option>
+  <option value="third">3</option>
+  <option value="fourth">4</option>
+  <option value="fifth">5</option>
+</select><br><br> 
+<h3 align="center" style="color:darkred">Feedback</h3>      
+<textarea name="feedback" rows="10" cols="60" value="" required></textarea><br><br>
+<form action="/action_page.php">
+<input type="submit" value="Submit" onclick="msg()">
+</form>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+#img {
+	background-image: url("deeadi tour and travels.png");
+  border-radius: 8px;
+}
+#a2{
+
+  float: center;
+  top: 10px;
+  left: 610px;
+  width: default;
+  height: default;
+  border: 3px solid black;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: red;
+}
+#a{
+
+background-image: url("h1.jpg");
+	float: left;
+	width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ color: white;
+ background-size: cover;
+}
+#a1{
+
+  float: right;
+  top: 10px;
+  width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ background-size: cover;
+}
+
+#b{
+
+background-image: url("h3.jpg");
+	float: left;
+	width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ color: white;
+ background-size: cover;
+}
+#b1{
+
+  float: right;
+  top: 10px;
+  width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ background-size: cover;
+}
+#c{
+
+background-image: url("h2.jpg");
+	float: left;
+	width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ color: white;
+ background-size: cover;
+}
+#c1{
+
+  float: right;
+  top: 10px;
+  width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ background-size: cover;
+}
+
+#d{
+
+background-image: url("h4.jpg");
+	float: left;
+	width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ color: white;
+ background-size: cover;
+}
+#d1{
+
+  float: right;
+  top: 10px;
+  width:600px;
+  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ background-size: cover;
+}

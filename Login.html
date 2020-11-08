@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script type="text/javascript" src="Login.js"></script>
+<title></title> 
+</head> 
+<body style="background-image: url('picture3.png'); height: 100%; background-position: center; 
+             background-repeat: no-repeat; background-size: cover;">
+<div align="center">
+<form name="myForm" onsubmit="return msg()" method="POST">
+
+<h1 align="center" style="color:darkred">Personal Details</h2>
+
+Name: <input type="text" name="name" value="" required/><br><br>
+Email id: <input type="email" name="email" value="" required/><br><br>
+Password: <input type="password" name="password" value="" required /><br><br>
+Gender: <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+Contact: <input type="number" name="contact" value="" required/>   
+<h3 align="center" style="color:darkred">Address</h3>      
+<textarea name="address" rows="10" cols="60" value="" required></textarea><br><br>
+<form action="/action_page.php">
+Attach Aadhar Card: <input type="file" id="myFile" name="filename"><br><br>
+<input type="submit" value="Submit" onclick="msg()">
+</form>
+</form>
+</div>
+</body>
+</html>
